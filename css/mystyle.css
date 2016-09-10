@@ -6,7 +6,6 @@
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
     min-height:400px;
 }
 
@@ -58,4 +57,14 @@ body{
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     color:#000000;
+}
+.remember{
+	color:white;
+}
+
+/*.quote{}*/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
