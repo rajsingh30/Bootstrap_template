@@ -54,7 +54,25 @@
                     <li><a href="contactus.html"><i class="fa fa-envelope-o"></i>
                     Contact</a></li>
                 </ul>
-                <form  class="navbar-form navbar-right" >  
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a data-toggle="modal" data-target="#loginModal">
+                    <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+    <div id="loginModal" class="modal fade " role="dialog">
+        <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content modL-lg">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title ">Login </h4>
+            </div>
+            <div class="modal-body ">
+
+            <form  class="form-inline" >  
   <div  class="form-group"> 
   
   <label  class="sr-only" for=”email">Email address</label> 
@@ -71,11 +89,16 @@
   
   <label class="remember"> <input  type="checkbox">  Remember  me</label>  
   </div>  
-  <button  type="submit" class="btn  btn-primary">Sign in</button>  
-</form>
+  <button  type="submit" class="btn  btn-primary btn-sm">Sign in</button>  
+
+<button type="button" class="btn btn-default btn-sm"
+                       data-dismiss="modal">Cancel</button>
+</form> 
+
             </div>
         </div>
-    </nav>  
+        </div>
+    </div>
     <header class="jumbotron">
 
         <!-- Main component for a primary marketing message or call to action -->
