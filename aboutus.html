@@ -55,7 +55,7 @@
                     Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a data-toggle="modal" data-target="#loginModal">
+                    <li><a id="loginButton">
                     <span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
@@ -403,6 +403,12 @@ fusion experiences. He says, <em>Put together the cuisines from the two craziest
     <script src="js/jquery-3.1.0.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+      })
+      </script>
 
 
 </body></html>
