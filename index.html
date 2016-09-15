@@ -57,7 +57,7 @@
                     <li><a href="contactus.html"><i class="fa fa-envelope-o"></i> Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a data-toggle="modal" data-target="#loginModal">
+                    <li><a  id="loginButton">
                     <span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
@@ -128,7 +128,7 @@ creations will tickle your culinary senses!</p>
     </a>
   </div>
   <div class="media-right media-middle">
-  <a href="#form" type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#form">
+  <a href="#form" type="button" class="btn btn-warning btn-block"  id="reserveTableButton">
     <button class="btn btn-warning btn-block">Reserve Table</button>
   </a>
 
@@ -561,11 +561,11 @@ just $19.99 per person </p>
     <script src="js/jquery-3.1.0.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script>
+   <!--  <script>
         $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
          });
-    </script>
+    </script> -->
 
     <script>
         $(document).ready(function(){
@@ -579,6 +579,13 @@ just $19.99 per person </p>
         });
     </script>
 
-
+<script>
+      $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+      })
+      $("#reserveTableButton").click(function() {
+        $("#from").modal("show");
+      })
+    </script>
   </body>
 </html>
