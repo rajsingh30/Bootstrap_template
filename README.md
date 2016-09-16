@@ -20,10 +20,10 @@ This is a simple restaurant template for ordering items and table reservation.
 - [X] Add Styling to page  
 - [X] Add Javascript/Jquery to page  
 - [X] Create a reservation form  
-- [] Add items in menu  
-- [] Make it Single Page Application using AngularJs  
-- [] Create Server side connection using nodejs  
-- [] Add mongodb connection to store user details and orders.  
+- [ ] Add items in menu  
+- [ ] Make it Single Page Application using AngularJs  
+- [ ] Create Server side connection using nodejs  
+- [ ] Add mongodb connection to store user details and orders.  
 
 #### Download Template
 
